@@ -14,10 +14,10 @@ mod inflate;
 
 use std::sync::Arc;
 
-use filmcraft_color::{ColorInfo, Transfer};
-use filmcraft_frame::VideoFrame;
-use filmcraft_time::FrameRate;
 use rayon::prelude::*;
+use videobox_color::{ColorInfo, Transfer};
+use videobox_frame::VideoFrame;
+use videobox_time::FrameRate;
 
 use super::{DEFAULT_STILL_DURATION, StillSource};
 use crate::{MediaError, MediaInfo, MediaKind, Result, VideoStreamInfo};

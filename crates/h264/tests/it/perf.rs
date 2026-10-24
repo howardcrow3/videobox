@@ -1,10 +1,10 @@
 //! Decode speed on a 1080p High-profile stream (ignored by default; run with
-//! `cargo test --release -p filmcraft-h264 --test it perf:: -- --ignored --nocapture`).
+//! `cargo test --release -p videobox-h264 --test it perf:: -- --ignored --nocapture`).
 
 use crate::common;
 
-use filmcraft_h264::Decoder;
 use std::time::Instant;
+use videobox_h264::Decoder;
 
 fn bench(data: &[u8], threads: usize, iters: usize) -> (usize, f64) {
     let mut best = f64::MAX;

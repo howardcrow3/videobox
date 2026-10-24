@@ -1,7 +1,7 @@
-//! Throughput: `cargo test --release -p filmcraft-dnx --test it perf:: -- --ignored --nocapture`.
+//! Throughput: `cargo test --release -p videobox-dnx --test it perf:: -- --ignored --nocapture`.
 
-use filmcraft_dnx::{ChromaFormat, DecodeOptions, Encoder, EncoderConfig, Frame, Profile, decode_frame_with};
 use std::time::Instant;
+use videobox_dnx::{ChromaFormat, DecodeOptions, Encoder, EncoderConfig, Frame, Profile, decode_frame_with};
 
 fn busy(w: u32, h: u32, chroma: ChromaFormat, depth: u8) -> Frame {
     let mut f = Frame::new(w, h, chroma, depth, false);

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  VideoBox MSI (WiX Toolset v5: `dotnet tool install -g wix`). Built by package.ps1:
+
+    wix build videobox.wxs -arch x64 -d Version=1.2.3 -d BinDir=... -d IconPath=... -o out.msi
+
+  Per-machine install into Program Files and a Start Menu shortcut. No file associations.
+-->
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package
+      Name="VideoBox"
+      Manufacturer="Turtle Box"
+      Version="$(var.Version)"
+      UpgradeCode="112D693B-5F78-4B54-8644-36435D5D25E9"
+      Scope="perMachine"
+      Compressed="yes"
+      Language="1033">
+    <SummaryInformation Description="VideoBox video editor" Manufacturer="Turtle Box" />
+    <!-- Same-version upgrades let successive pre-releases of one X.Y.Z replace each other
+         (MSI versions are numeric, so 1.2.3-rc.1 and 1.2.3-rc.2 are both 1.2.3). -->
+    <MajorUpgrade AllowSameVersionUpgrades="yes"
+        DowngradeErrorMessage="A newer version of VideoBox is already installed." />
+    <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
+
+    <Icon Id="VideoboxIcon.ico" SourceFile="$(var.IconPath)" />
+    <Property Id="ARPPRODUCTICON" Value="VideoboxIcon.ico" />
+    <Property Id="ARPURLINFOABOUT" Value="https://turtlebox.studio/apps/videobox" />
+    <Property Id="ARPURLUPDATEINFO" Value="https://turtlebox.studio/apps/videobox" />
+    <Property Id="ARPHELPLINK" Value="https://turtlebox.studio/discord" />
+
+    <StandardDirectory Id="ProgramFiles6432Folder">
+      <Directory Id="INSTALLFOLDER" Name="VideoBox" />
+    </StandardDirectory>
+    <StandardDirectory Id="ProgramMenuFolder" />
+
+    <Feature Id="Main" Title="VideoBox" Level="1">
+      <ComponentGroupRef Id="VideoboxFiles" />
+    </Feature>
+  </Package>
+
+  <Fragment>
+    <ComponentGroup Id="VideoboxFiles" Directory="INSTALLFOLDER">
+      <Component Id="VideoboxApp" Guid="BFBADB07-D0F3-4A41-B207-7AD1797CFD34">
+        <File Id="VideoboxExe" Source="$(var.BinDir)\videobox.exe" KeyPath="yes">
+          <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="VideoBox"
+              Description="VideoBox video editor" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
+              Icon="VideoboxIcon.ico" IconIndex="0" />
+        </File>
+
+        <RegistryValue Root="HKLM" Key="Software\Microsoft\Windows\CurrentVersion\App Paths\videobox.exe" Value="[#VideoboxExe]" Type="string" />
+      </Component>
+
+      <Component Id="VideoboxCli">
+        <File Id="VideoboxCliExe" Source="$(var.BinDir)\videobox-cli.exe" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

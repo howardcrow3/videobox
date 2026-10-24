@@ -2,7 +2,7 @@
 
 use crate::common;
 use common::*;
-use filmcraft_dnx::{ChromaFormat, Encoder, EncoderConfig, Profile, decode_frame};
+use videobox_dnx::{ChromaFormat, Encoder, EncoderConfig, Profile, decode_frame};
 
 struct Case {
     name: &'static str,

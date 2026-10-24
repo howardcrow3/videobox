@@ -1,8 +1,8 @@
 //! Sequence review notes as a spreadsheet-safe CSV, using the host's atomic file service.
 
-use filmcraft_project::Label;
-use filmcraft_time::{Tick, format_timecode_frames};
 use serde_json::{Value, json};
+use videobox_project::Label;
+use videobox_time::{Tick, format_timecode_frames};
 
 use crate::commands::bad;
 use crate::{EngineError, Result, Session};
@@ -96,9 +96,9 @@ pub(crate) fn export(s: &mut Session, p: &Value) -> Result<Value> {
 mod tests {
     use super::*;
     use crate::Services;
-    use filmcraft_project::{Label, Marker, MarkerId, MarkerKind};
-    use filmcraft_time::FrameRate;
     use std::sync::{Arc, Mutex};
+    use videobox_project::{Label, Marker, MarkerId, MarkerKind};
+    use videobox_time::FrameRate;
 
     #[derive(Default)]
     struct Files {
@@ -250,7 +250,7 @@ mod tests {
         assert!(files.writes.lock().unwrap().is_empty());
         s.execute(CMD, json!({"path":"recovered.csv"})).unwrap();
     }
-    fn q_reset(s: &mut Session, id: filmcraft_project::ItemId) {
+    fn q_reset(s: &mut Session, id: videobox_project::ItemId) {
         let q = Arc::make_mut(&mut s.project).sequence_mut(id).unwrap();
         q.start_timecode = 0;
         q.markers.clear();

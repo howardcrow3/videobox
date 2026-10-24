@@ -1,0 +1,8 @@
+asset:        studio.turtlebox.videobox.png
+title:        VideoBox app icon (Linux hicolor theme icon (24x24)): turtle mark on an ink tile
+author:       Turtle Box
+source:       original work (the Turtle Box turtle mark)
+license:      LicenseRef-TurtleBox-Trademark: Turtle Box name and marks are trademarks of Turtle Box, not open source; usable only unmodified and only in the context of VideoBox, under docs/brand/LICENSE-brand.txt. Not covered by the project's MIT OR Apache-2.0 license.
+license-file: docs/brand/LICENSE-brand.txt
+added:        2026-10-23 by Claude (agent) for Howard (Turtle Box)
+notes:        App icon artwork: the Turtle Box turtle mark in light ink on a rounded ink tile (512-unit viewBox, rx=112). See assets/app-icon/README.md. Treated as a brand mark, so forks must replace it.

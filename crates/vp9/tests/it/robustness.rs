@@ -2,8 +2,8 @@
 
 use crate::common;
 
-use filmcraft_vp9::Decoder;
 use std::time::{Duration, Instant};
+use videobox_vp9::Decoder;
 
 fn xorshift(seed: &mut u64) -> u64 {
     *seed ^= *seed << 13;

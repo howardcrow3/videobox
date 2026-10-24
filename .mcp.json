@@ -1,11 +1,11 @@
 {
   "mcpServers": {
-    "filmcraft": {
-      "command": "target/release/filmcraft-cli",
+    "videobox": {
+      "command": "target/release/videobox-cli",
       "args": ["mcp", "--bridge", "127.0.0.1:9876"]
     },
-    "filmcraft-headless": {
-      "command": "target/release/filmcraft-cli",
+    "videobox-headless": {
+      "command": "target/release/videobox-cli",
       "args": ["mcp", "--demo"]
     }
   }

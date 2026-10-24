@@ -1,9 +1,9 @@
 //! Decode/encode throughput. Run with
-//! `cargo test --release -p filmcraft-prores --test it perf:: -- --ignored --nocapture`.
+//! `cargo test --release -p videobox-prores --test it perf:: -- --ignored --nocapture`.
 
 use crate::common;
-use filmcraft_prores::*;
 use std::time::Instant;
+use videobox_prores::*;
 
 /// A 1080p frame whose HQ encoding uses the full nominal rate (detailed, noisy content).
 fn busy_1080p(chroma: ChromaFormat) -> Frame {

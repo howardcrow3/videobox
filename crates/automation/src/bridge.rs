@@ -30,7 +30,7 @@ pub struct BridgeClient {
 }
 
 impl BridgeClient {
-    /// `addr` such as `127.0.0.1:9876` (loopback only). Reads `FILMCRAFT_CONTROL_TOKEN`
+    /// `addr` such as `127.0.0.1:9876` (loopback only). Reads `VIDEOBOX_CONTROL_TOKEN`
     /// from the environment; the desktop app requires this credential on every request.
     pub fn new(addr: impl Into<String>) -> Result<Self, AutomationError> {
         let addr = addr.into();
@@ -38,7 +38,7 @@ impl BridgeClient {
         if !matches!(host, "127.0.0.1" | "localhost" | "[::1]" | "::1") {
             return Err(AutomationError::BadRequest(format!("bridge address must be loopback, got `{addr}`")));
         }
-        Ok(Self { addr, token: std::env::var("FILMCRAFT_CONTROL_TOKEN").ok(), idle: Mutex::new(Vec::new()), next_id: AtomicU64::new(1) })
+        Ok(Self { addr, token: std::env::var("VIDEOBOX_CONTROL_TOKEN").ok(), idle: Mutex::new(Vec::new()), next_id: AtomicU64::new(1) })
     }
 
     /// Run engine command `id` in the app. A blocking export (`file.exportMedia` with
@@ -123,7 +123,7 @@ impl BridgeClient {
         let s = tokio::time::timeout(Duration::from_secs(5), TcpStream::connect(&self.addr))
             .await
             .map_err(|_| AutomationError::Bridge(format!("timed out connecting to {}", self.addr)))?
-            .map_err(|e| AutomationError::Bridge(format!("cannot connect to {} ({e}); start the app with `filmcraft --control <port>`", self.addr)))?;
+            .map_err(|e| AutomationError::Bridge(format!("cannot connect to {} ({e}); start the app with `videobox --control <port>`", self.addr)))?;
         let (r, w) = s.into_split();
         Ok((BufReader::new(r), w))
     }

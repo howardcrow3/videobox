@@ -4,10 +4,10 @@
 
 use crate::support;
 
-use filmcraft_interchange::{ExportOptions, Format, Report, export, import};
-use filmcraft_project::{ItemId, ItemKind, Label, ParamValue, Project, TrackKind, find_effect};
-use filmcraft_time::FrameRate;
 use support::*;
+use videobox_interchange::{ExportOptions, Format, Report, export, import};
+use videobox_project::{ItemId, ItemKind, Label, ParamValue, Project, TrackKind, find_effect};
+use videobox_time::FrameRate;
 
 const RATE: FrameRate = FrameRate::FPS_24;
 

@@ -2,9 +2,9 @@
 //! and the decode helpers.
 #![allow(dead_code)]
 
-use filmcraft_vp8::{Decoder, Picture};
 use std::path::{Path, PathBuf};
 use std::process::Command;
+use videobox_vp8::{Decoder, Picture};
 
 /// One encoder configuration of the fixture matrix.
 pub struct Fixture {

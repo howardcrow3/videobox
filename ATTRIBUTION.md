@@ -1,6 +1,6 @@
 # Attribution
 
-Every non-code asset in FilmCraft, with its author, source and licence. Each file listed here also has
+Every non-code asset in VideoBox, with its author, source and licence. Each file listed here also has
 a `<file>.attribution` sidecar with full details. The rules are in [AGENTS.md](AGENTS.md) §1: no Adobe
 iconography, images or other Adobe assets; open licences only; every asset attributed.
 `cargo xtask assets` checks that this index and the sidecars cover every asset in the repository.
@@ -23,69 +23,69 @@ iconography, images or other Adobe assets; open licences only; every asset attri
 | `assets/fonts/Inter-Italic.ttf` | The Inter Project Authors | https://github.com/rsms/inter | OFL-1.1 (`assets/fonts/OFL-Inter.txt`) |
 | `assets/fonts/NotoSerif-Regular.ttf` | The Noto Project Authors | https://github.com/notofonts/latin-greek-cyrillic | OFL-1.1 (`assets/fonts/OFL-NotoSerif.txt`) |
 | `assets/fonts/JetBrainsMono-Regular.ttf` | The JetBrains Mono Project Authors | https://github.com/JetBrains/JetBrainsMono | OFL-1.1 (`assets/fonts/OFL-JetBrainsMono.txt`) |
-| `docs/images/filmcraft-hero.png` | FilmCraft contributors | Original work: FilmCraft screenshot; NASA Apollo 11 film and TV footage (images.nasa.gov; US Government work, public domain; NASA does not endorse this project), subtitles from the NASA Apollo 11 air-to-ground transcript (public domain), CC0 Chopin (Musopen) | MIT OR Apache-2.0; footage and transcript public domain |
-| `docs/images/filmcraft-color.png` | FilmCraft contributors | Original work: FilmCraft screenshot; frames from Charade (1963, public domain) | MIT OR Apache-2.0; film frames public domain |
-| `docs/images/filmcraft-keyframes.png` | FilmCraft contributors | Original work: FilmCraft screenshot; frames from Night of the Living Dead (1968, public domain) | MIT OR Apache-2.0; film frames public domain |
-| `docs/images/filmcraft-export.png` | FilmCraft contributors | Original work: FilmCraft screenshot; frame from Night of the Living Dead (1968, public domain) | MIT OR Apache-2.0; film frames public domain |
-| `docs/images/filmcraft-assembly.png` | FilmCraft contributors | Original work: FilmCraft screenshot; frames from Carnival of Souls (1962), Night of the Living Dead (1968), thumbnails of all demo media | MIT OR Apache-2.0; film frames public domain |
-| `docs/images/filmcraft-color-panel.png` | FilmCraft contributors | Original work: FilmCraft UI crop (color grading panel) | MIT OR Apache-2.0 |
-| `docs/images/filmcraft-scopes.png` | FilmCraft contributors | Original work: FilmCraft UI crop (scopes of a Charade (1963) frame, public domain) | MIT OR Apache-2.0 |
-| `docs/images/filmcraft-effects.png` | FilmCraft contributors | Original work: FilmCraft screenshot crop; NASA Earth Views (US Government work, public domain) | MIT OR Apache-2.0; footage public domain |
-| `docs/images/filmcraft-timeline.png` | FilmCraft contributors | Original work: FilmCraft UI crop; thumbnails from Night of the Living Dead (1968) and Carnival of Souls (1962), CC0 Chopin waveform | MIT OR Apache-2.0; film frames public domain |
-| `assets/app-icon/filmcraft.svg` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; canonical vector | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `packaging/macos/dmg/background.svg` | @XusBadia | Original work: FilmCraft macOS DMG window background, derived from the FilmCraft app icon (`assets/app-icon/filmcraft.svg`); rendered to `background.tiff` by `packaging/macos/dmg/generate.py` | MIT OR Apache-2.0 (`LICENSE-MIT`, `LICENSE-APACHE`) |
+| `docs/images/videobox-hero.png` | FilmCraft contributors | Original work: VideoBox screenshot; NASA Apollo 11 film and TV footage (images.nasa.gov; US Government work, public domain; NASA does not endorse this project), subtitles from the NASA Apollo 11 air-to-ground transcript (public domain), CC0 Chopin (Musopen) | MIT OR Apache-2.0; footage and transcript public domain |
+| `docs/images/videobox-color.png` | FilmCraft contributors | Original work: VideoBox screenshot; frames from Charade (1963, public domain) | MIT OR Apache-2.0; film frames public domain |
+| `docs/images/videobox-keyframes.png` | FilmCraft contributors | Original work: VideoBox screenshot; frames from Night of the Living Dead (1968, public domain) | MIT OR Apache-2.0; film frames public domain |
+| `docs/images/videobox-export.png` | FilmCraft contributors | Original work: VideoBox screenshot; frame from Night of the Living Dead (1968, public domain) | MIT OR Apache-2.0; film frames public domain |
+| `docs/images/videobox-assembly.png` | FilmCraft contributors | Original work: VideoBox screenshot; frames from Carnival of Souls (1962), Night of the Living Dead (1968), thumbnails of all demo media | MIT OR Apache-2.0; film frames public domain |
+| `docs/images/videobox-color-panel.png` | FilmCraft contributors | Original work: VideoBox UI crop (color grading panel) | MIT OR Apache-2.0 |
+| `docs/images/videobox-scopes.png` | FilmCraft contributors | Original work: VideoBox UI crop (scopes of a Charade (1963) frame, public domain) | MIT OR Apache-2.0 |
+| `docs/images/videobox-effects.png` | FilmCraft contributors | Original work: VideoBox screenshot crop; NASA Earth Views (US Government work, public domain) | MIT OR Apache-2.0; footage public domain |
+| `docs/images/videobox-timeline.png` | FilmCraft contributors | Original work: VideoBox UI crop; thumbnails from Night of the Living Dead (1968) and Carnival of Souls (1962), CC0 Chopin waveform | MIT OR Apache-2.0; film frames public domain |
+| `assets/app-icon/videobox.svg` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; canonical vector | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `packaging/macos/dmg/background.svg` | @XusBadia | Original work: VideoBox macOS DMG window background, recoloured for VideoBox, with the Turtle Box turtle mark (a brand mark, see `docs/brand/LICENSE-brand.txt`); rendered to `background.tiff` by `packaging/macos/dmg/generate.py` | MIT OR Apache-2.0 (`LICENSE-MIT`, `LICENSE-APACHE`) |
 | `packaging/macos/dmg/background.tiff` | @XusBadia | Rendered from `packaging/macos/dmg/background.svg` by `packaging/macos/dmg/generate.py` | MIT OR Apache-2.0 (`LICENSE-MIT`, `LICENSE-APACHE`) |
-| `assets/app-icon/filmcraft-small.svg` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; lighter vector | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/filmcraft-1024.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; 1024 px render | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/filmcraft-macos-512.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; macOS runtime Dock icon (512 px) | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/filmcraft.icns` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; macOS .icns | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/filmcraft.ico` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Windows .ico (16-256 px) | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/16x16/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 16 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/24x24/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 24 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/32x32/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 32 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/48x48/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 48 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/64x64/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 64 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/128x128/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 128 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/256x256/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 256 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/512x512/apps/ai.storyteller.filmcraft.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme 512 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `assets/app-icon/hicolor/scalable/apps/ai.storyteller.filmcraft.svg` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; Linux hicolor theme scalable | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
-| `apps/filmcraft-web/web/favicon.png` | Brandon Thomas (FilmCraft owner) | Original work: FilmCraft app icon (owl with ear tufts), drawn by the owner in ArtCraft and vectorised; 128 px | MIT OR Apache-2.0 (`assets/app-icon/LICENSE.txt`) |
+| `assets/app-icon/videobox-small.svg` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; lighter vector (same artwork) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/videobox-1024.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; 1024 px render | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/videobox-macos-512.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; macOS runtime Dock icon (512 px) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/videobox.icns` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; macOS .icns | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/videobox.ico` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Windows .ico (16-256 px) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/16x16/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (16x16) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/24x24/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (24x24) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/32x32/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (32x32) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/48x48/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (48x48) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/64x64/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (64x64) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/128x128/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (128x128) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/256x256/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (256x256) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/512x512/apps/studio.turtlebox.videobox.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (512x512) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `assets/app-icon/hicolor/scalable/apps/studio.turtlebox.videobox.svg` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; Linux hicolor theme icon (scalable) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `apps/videobox-web/web/favicon.png` | Turtle Box | Original work: VideoBox app icon, the Turtle Box turtle mark on an ink tile; web favicon (128 px) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
 
 ## Golden test images
 
-Reference frames for the renderer golden tests (`crates/golden`), rendered by FilmCraft itself from
+Reference frames for the renderer golden tests (`crates/golden`), rendered by VideoBox itself from
 procedural demo footage (`crates/media/src/generators.rs`); no external media. Regenerate with
-`FILMCRAFT_BLESS=1 cargo test -p filmcraft-golden`.
+`VIDEOBOX_BLESS=1 cargo test -p videobox-golden`.
 
 | Asset | Author | Source | Licence |
 |---|---|---|---|
-| `crates/golden/goldens/blend_modes.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `blend_modes`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/crop.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `crop`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/gaussian_blur.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `gaussian_blur`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/graphic_shapes.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `graphic_shapes`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
-| `crates/golden/goldens/graphic_template.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `graphic_template`; a built-in FilmCraft graphics template) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
-| `crates/golden/goldens/graphic_rich_text.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `graphic_rich_text`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
-| `crates/golden/goldens/log_to_rec709.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `log_to_rec709`) from procedurally generated media re-encoded as S-Log3 | MIT OR Apache-2.0 |
-| `crates/golden/goldens/hdr_tone_map.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `hdr_tone_map`) from procedurally generated media re-encoded as Rec. 2100 PQ | MIT OR Apache-2.0 |
-| `crates/golden/goldens/graphic_title.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `graphic_title`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
-| `crates/golden/goldens/lumetri_basic.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `lumetri_basic`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/lumetri_hdr_pq.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `lumetri_hdr_pq`) from procedurally generated media re-encoded as Rec. 2100 PQ | MIT OR Apache-2.0 |
-| `crates/golden/goldens/lumetri_presets_grid.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, `lumetri_presets_grid`): FilmCraft's own Lumetri presets on its procedural preview picture | MIT OR Apache-2.0 |
-| `crates/golden/goldens/text_burnin.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `text_burnin`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/transform_opacity.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `transform_opacity`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/transition_cross_dissolve.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `transition_cross_dissolve`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/transition_dip_to_black.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `transition_dip_to_black`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/transition_wipe.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `transition_wipe`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/mask_blur.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `mask_blur`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/mask_color.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `mask_color`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/mask_inverted.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `mask_inverted`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/mask_opacity.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `mask_opacity`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_distort.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_distort`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_ultra_key.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_ultra_key`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_glows.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_glows`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_spacer_stroke_shadow.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_spacer_stroke_shadow`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_vr_rotate.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_vr_rotate`) from procedurally generated media | MIT OR Apache-2.0 |
-| `crates/golden/goldens/vfx_stylize.png` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft (crates/golden/tests/golden.rs, scene `vfx_stylize`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/blend_modes.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `blend_modes`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/crop.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `crop`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/gaussian_blur.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `gaussian_blur`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/graphic_shapes.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `graphic_shapes`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
+| `crates/golden/goldens/graphic_template.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `graphic_template`; a built-in VideoBox graphics template) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
+| `crates/golden/goldens/graphic_rich_text.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `graphic_rich_text`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
+| `crates/golden/goldens/log_to_rec709.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `log_to_rec709`) from procedurally generated media re-encoded as S-Log3 | MIT OR Apache-2.0 |
+| `crates/golden/goldens/hdr_tone_map.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `hdr_tone_map`) from procedurally generated media re-encoded as Rec. 2100 PQ | MIT OR Apache-2.0 |
+| `crates/golden/goldens/graphic_title.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `graphic_title`) from procedurally generated media and bundled OFL fonts | MIT OR Apache-2.0 |
+| `crates/golden/goldens/lumetri_basic.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `lumetri_basic`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/lumetri_hdr_pq.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `lumetri_hdr_pq`) from procedurally generated media re-encoded as Rec. 2100 PQ | MIT OR Apache-2.0 |
+| `crates/golden/goldens/lumetri_presets_grid.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, `lumetri_presets_grid`): VideoBox's own Lumetri presets on its procedural preview picture | MIT OR Apache-2.0 |
+| `crates/golden/goldens/text_burnin.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `text_burnin`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/transform_opacity.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `transform_opacity`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/transition_cross_dissolve.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `transition_cross_dissolve`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/transition_dip_to_black.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `transition_dip_to_black`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/transition_wipe.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `transition_wipe`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/mask_blur.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `mask_blur`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/mask_color.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `mask_color`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/mask_inverted.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `mask_inverted`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/mask_opacity.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `mask_opacity`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_distort.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_distort`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_ultra_key.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_ultra_key`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_glows.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_glows`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_spacer_stroke_shadow.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_spacer_stroke_shadow`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_vr_rotate.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_vr_rotate`) from procedurally generated media | MIT OR Apache-2.0 |
+| `crates/golden/goldens/vfx_stylize.png` | FilmCraft contributors | Original work: golden reference rendered by VideoBox (crates/golden/tests/golden.rs, scene `vfx_stylize`) from procedurally generated media | MIT OR Apache-2.0 |
 
 ## Third-party media shown in screenshots
 
@@ -125,7 +125,7 @@ its author, pinned upstream source and licence text are listed in its
 [ATTRIBUTION.md](https://github.com/storytold/craft-fonts/blob/main/ATTRIBUTION.md). Release packages
 carry each font's licence as `OFL-<family>.txt`.
 
-| Font | Use in FilmCraft | Licence |
+| Font | Use in VideoBox | Licence |
 |---|---|---|
 | BIZ UDPGothic Regular, Bold (Morisawa) | Japanese UI text; Japanese fallback for sans titles (the web build embeds only Regular) | OFL-1.1 |
 | Shippori Mincho Regular (FONTDASU) | Japanese fallback for serif titles (native builds) | OFL-1.1 |
@@ -137,21 +137,21 @@ carry each font's licence as `OFL-<family>.txt`.
 
 ## First-party brand marks
 
-The ArtCraft name, wordmark and logos are trademarks of the ArtCraft Team. They are not open source and
+The Turtle Box name, turtle mark and logos are trademarks of Turtle Box. They are not open source and
 are not covered by the project licence; they may be used only unmodified and only in the context of
-FilmCraft, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt). Forks and modified versions must
+VideoBox, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt). Forks and modified versions must
 remove them (AGENTS.md §1.8).
 
 | File | Author | Source | Licence |
 |---|---|---|---|
-| `docs/brand/artcraft-logo-white.png` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft wordmark, light ink for dark backgrounds) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-logo-white.svg` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft wordmark, light ink for dark backgrounds) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-logo.png` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft wordmark (symbol + "ARTCRAFT"), dark ink for light backgrounds) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-logo.svg` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft wordmark (symbol + "ARTCRAFT"), dark ink for light backgrounds) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-mark-black.png` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft symbol ("A" mark), black) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-mark-black.svg` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft symbol ("A" mark), black) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-mark.png` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft symbol ("A" mark), blue) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
-| `docs/brand/artcraft-mark.svg` | ArtCraft Team | Original work: first-party ArtCraft brand mark (ArtCraft symbol ("A" mark), blue) | ArtCraft trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-logo.png` | Turtle Box | Original work: first-party Turtle Box brand mark (VideoBox logo (turtle mark + "VideoBox"), dark ink for light backgrounds) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-logo.svg` | Turtle Box | Original work: first-party Turtle Box brand mark (VideoBox logo (turtle mark + "VideoBox"), dark ink for light backgrounds) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-logo-white.png` | Turtle Box | Original work: first-party Turtle Box brand mark (VideoBox logo (turtle mark + "VideoBox"), light ink for dark backgrounds) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-logo-white.svg` | Turtle Box | Original work: first-party Turtle Box brand mark (VideoBox logo (turtle mark + "VideoBox"), light ink for dark backgrounds) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-mark.png` | Turtle Box | Original work: first-party Turtle Box brand mark (Turtle Box turtle mark, dark ink) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-mark.svg` | Turtle Box | Original work: first-party Turtle Box brand mark (Turtle Box turtle mark, dark ink) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-mark-white.png` | Turtle Box | Original work: first-party Turtle Box brand mark (Turtle Box turtle mark, light ink) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
+| `docs/brand/videobox-mark-white.svg` | Turtle Box | Original work: first-party Turtle Box brand mark (Turtle Box turtle mark, light ink) | LicenseRef-TurtleBox-Trademark, not open source; `docs/brand/LICENSE-brand.txt` (not MIT/Apache) |
 
 ## Third-party source code
 
@@ -164,7 +164,7 @@ the original copyright and permission notice in its header.
 
 ## Downloaded at runtime
 
-These files are never in the repository or the app bundle. FilmCraft downloads them into the
+These files are never in the repository or the app bundle. VideoBox downloads them into the
 per-user data directory (`<data dir>/models/<id>/`) only after the user confirms a dialog that shows
 the size, the source URL and the licence. Every file is pinned to a revision and checked against its
 SHA-256 (`crates/speech/src/models.rs`, `docs/transcripts.md`).

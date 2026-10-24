@@ -3,10 +3,10 @@
 use std::ops::Range;
 use std::sync::{Arc, Weak};
 
-use filmcraft_edit::transcript::{SeqWord, paragraphs, search};
-use filmcraft_engine::Session;
-use filmcraft_project::{ItemId, Project};
-use filmcraft_time::Tick;
+use videobox_edit::transcript::{SeqWord, paragraphs, search};
+use videobox_engine::Session;
+use videobox_project::{ItemId, Project};
+use videobox_time::Tick;
 
 #[derive(Default)]
 pub(crate) struct Content {
@@ -29,7 +29,7 @@ impl TranscriptCache {
         let view = session.state.active_sequence;
         let project = Arc::downgrade(&session.project);
         if !self.project.ptr_eq(&project) || self.view != view {
-            let words = filmcraft_engine::transcript::sequence_words(session);
+            let words = videobox_engine::transcript::sequence_words(session);
             let paragraphs = paragraphs(&words, Tick::from_seconds_f64(1.5));
             self.content = Arc::new(Content { words, paragraphs });
             self.project = project;

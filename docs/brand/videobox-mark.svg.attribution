@@ -1,0 +1,8 @@
+asset:        videobox-mark.svg
+title:        Turtle Box turtle mark, dark ink (SVG)
+author:       Turtle Box
+source:       original work (the Turtle Box turtle mark)
+license:      LicenseRef-TurtleBox-Trademark: Turtle Box name and marks are trademarks of Turtle Box, not open source; usable only unmodified and only in the context of VideoBox, under docs/brand/LICENSE-brand.txt. Not covered by the project's MIT OR Apache-2.0 license.
+license-file: docs/brand/LICENSE-brand.txt
+added:        2026-10-23 by Claude (agent) for Howard (Turtle Box)
+notes:        Shown in the README footer. First-party brand mark: the one exception to the open-licence rule (AGENTS.md §1.8). Forks and modified versions must remove it (docs/brand/LICENSE-brand.txt).

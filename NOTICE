@@ -1,9 +1,12 @@
-FilmCraft
+VideoBox
 Copyright (c) 2026 ArtCraft Team and the FilmCraft contributors.
 Licensed under the MIT License or the Apache License, Version 2.0, at your option
 (LICENSE-MIT, LICENSE-APACHE).
 
-The ArtCraft name, wordmark and logos in docs/brand/ are trademarks of the ArtCraft Team. They are
+VideoBox is a fork of FilmCraft (https://github.com/storytold/filmcraft) by the ArtCraft team,
+rebranded by Turtle Box. The copyright and license notices above are the original ones and are kept.
+
+The Turtle Box name, turtle mark and logos in docs/brand/ are trademarks of Turtle Box. They are
 not open source and are not covered by the license above; their terms are in
 docs/brand/LICENSE-brand.txt.
 

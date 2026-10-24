@@ -4,10 +4,10 @@ use crate::support;
 
 use std::collections::HashSet;
 
-use filmcraft_interchange::{ExportOptions, Format, detect, export, import, merge_into, rebase_source_timecode};
-use filmcraft_project::{ItemKind, Project, TrackKind, TransitionAlign};
-use filmcraft_time::FrameRate;
 use support::*;
+use videobox_interchange::{ExportOptions, Format, detect, export, import, merge_into, rebase_source_timecode};
+use videobox_project::{ItemKind, Project, TrackKind, TransitionAlign};
+use videobox_time::FrameRate;
 
 #[test]
 fn detect_by_content_and_extension() {

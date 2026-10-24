@@ -1,4 +1,4 @@
-# Contributing to FilmCraft
+# Contributing to VideoBox
 
 Thanks for helping. Before you start:
 

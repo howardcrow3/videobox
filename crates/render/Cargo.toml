@@ -1,5 +1,5 @@
 [package]
-name = "filmcraft-render"
+name = "videobox-render"
 description = "Sequence evaluation and CPU reference compositor (linear-light premultiplied f32)"
 version.workspace = true
 edition.workspace = true
@@ -10,15 +10,15 @@ rust-version.workspace = true
 workspace = true
 
 [dependencies]
-filmcraft-time = { workspace = true }
-filmcraft-geom = { workspace = true }
-filmcraft-color = { workspace = true }
-filmcraft-frame = { workspace = true }
-filmcraft-media = { workspace = true }
-filmcraft-project = { workspace = true }
-filmcraft-audio-dsp = { workspace = true }
-filmcraft-captions = { workspace = true }
-filmcraft-text = { workspace = true }
+videobox-time = { workspace = true }
+videobox-geom = { workspace = true }
+videobox-color = { workspace = true }
+videobox-frame = { workspace = true }
+videobox-media = { workspace = true }
+videobox-project = { workspace = true }
+videobox-audio-dsp = { workspace = true }
+videobox-captions = { workspace = true }
+videobox-text = { workspace = true }
 rayon = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }

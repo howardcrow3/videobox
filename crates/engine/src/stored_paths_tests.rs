@@ -6,10 +6,10 @@
 use std::path::Path;
 use std::sync::{Arc, Mutex, PoisonError};
 
-use filmcraft_media::DemoScene;
-use filmcraft_project::{ItemId, MediaRef};
-use filmcraft_render::offline::OfflineReason;
 use serde_json::json;
+use videobox_media::DemoScene;
+use videobox_project::{ItemId, MediaRef};
+use videobox_render::offline::OfflineReason;
 
 use crate::media_test_util::{make_movie, session_with, tmp_dir};
 use crate::{FsServices, Services, Session};
@@ -44,7 +44,7 @@ impl Services for Recording {
         self.note(path);
         FsServices.read_range(path, offset, len)
     }
-    fn reader(&self, path: &str) -> Option<std::io::Result<filmcraft_media::SharedReader>> {
+    fn reader(&self, path: &str) -> Option<std::io::Result<videobox_media::SharedReader>> {
         self.note(path);
         FsServices.reader(path)
     }

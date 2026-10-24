@@ -8,59 +8,59 @@ version = "0.12.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 rust-version = "1.95"
-repository = "https://github.com/storytold/filmcraft"
+repository = "https://github.com/howardcrow3/videobox"
 
 [workspace.dependencies]
 # internal
-filmcraft-time = { path = "crates/time" }
-filmcraft-geom = { path = "crates/geom" }
-filmcraft-color = { path = "crates/color" }
-filmcraft-bitstream = { path = "crates/bitstream" }
-filmcraft-isobmff = { path = "crates/isobmff" }
-filmcraft-avi = { path = "crates/avi" }
-filmcraft-matroska = { path = "crates/matroska" }
-filmcraft-mxf = { path = "crates/mxf" }
-filmcraft-cfb = { path = "crates/cfb" }
-filmcraft-mpegts = { path = "crates/mpegts" }
-filmcraft-mpeg2v = { path = "crates/mpeg2v" }
-filmcraft-ac3 = { path = "crates/ac3" }
-filmcraft-mpa = { path = "crates/mpa" }
-filmcraft-ogg = { path = "crates/ogg" }
-filmcraft-h264 = { path = "crates/h264" }
-filmcraft-hevc = { path = "crates/hevc" }
-filmcraft-vp8 = { path = "crates/vp8" }
-filmcraft-vp9 = { path = "crates/vp9" }
-filmcraft-prores = { path = "crates/prores" }
-filmcraft-dnx = { path = "crates/dnx" }
-filmcraft-apv = { path = "crates/apv" }
-filmcraft-dng = { path = "crates/dng" }
-filmcraft-av1 = { path = "crates/av1" }
-filmcraft-aac = { path = "crates/aac" }
-filmcraft-flac = { path = "crates/flac" }
-filmcraft-opus = { path = "crates/opus" }
-filmcraft-h264enc = { path = "crates/h264enc" }
-filmcraft-audio-dsp = { path = "crates/audio-dsp" }
-filmcraft-frame = { path = "crates/frame" }
-filmcraft-media = { path = "crates/media" }
-filmcraft-codecs = { path = "crates/codecs" }
-filmcraft-project = { path = "crates/project" }
-filmcraft-edit = { path = "crates/edit" }
-filmcraft-interchange = { path = "crates/interchange" }
-filmcraft-text = { path = "crates/text" }
-filmcraft-captions = { path = "crates/captions" }
-filmcraft-speech = { path = "crates/speech" }
-filmcraft-tts = { path = "crates/tts" }
-filmcraft-tts-text = { path = "crates/tts-text" }
-filmcraft-render = { path = "crates/render" }
-filmcraft-gpu = { path = "crates/gpu" }
-filmcraft-scopes = { path = "crates/scopes" }
-filmcraft-export = { path = "crates/export" }
-filmcraft-format = { path = "crates/format" }
-filmcraft-engine = { path = "crates/engine" }
-filmcraft-ui-egui = { path = "crates/ui-egui" }
-filmcraft-automation = { path = "crates/automation" }
-filmcraft-platform = { path = "crates/platform" }
-filmcraft-testkit = { path = "crates/testkit" }
+videobox-time = { path = "crates/time" }
+videobox-geom = { path = "crates/geom" }
+videobox-color = { path = "crates/color" }
+videobox-bitstream = { path = "crates/bitstream" }
+videobox-isobmff = { path = "crates/isobmff" }
+videobox-avi = { path = "crates/avi" }
+videobox-matroska = { path = "crates/matroska" }
+videobox-mxf = { path = "crates/mxf" }
+videobox-cfb = { path = "crates/cfb" }
+videobox-mpegts = { path = "crates/mpegts" }
+videobox-mpeg2v = { path = "crates/mpeg2v" }
+videobox-ac3 = { path = "crates/ac3" }
+videobox-mpa = { path = "crates/mpa" }
+videobox-ogg = { path = "crates/ogg" }
+videobox-h264 = { path = "crates/h264" }
+videobox-hevc = { path = "crates/hevc" }
+videobox-vp8 = { path = "crates/vp8" }
+videobox-vp9 = { path = "crates/vp9" }
+videobox-prores = { path = "crates/prores" }
+videobox-dnx = { path = "crates/dnx" }
+videobox-apv = { path = "crates/apv" }
+videobox-dng = { path = "crates/dng" }
+videobox-av1 = { path = "crates/av1" }
+videobox-aac = { path = "crates/aac" }
+videobox-flac = { path = "crates/flac" }
+videobox-opus = { path = "crates/opus" }
+videobox-h264enc = { path = "crates/h264enc" }
+videobox-audio-dsp = { path = "crates/audio-dsp" }
+videobox-frame = { path = "crates/frame" }
+videobox-media = { path = "crates/media" }
+videobox-codecs = { path = "crates/codecs" }
+videobox-project = { path = "crates/project" }
+videobox-edit = { path = "crates/edit" }
+videobox-interchange = { path = "crates/interchange" }
+videobox-text = { path = "crates/text" }
+videobox-captions = { path = "crates/captions" }
+videobox-speech = { path = "crates/speech" }
+videobox-tts = { path = "crates/tts" }
+videobox-tts-text = { path = "crates/tts-text" }
+videobox-render = { path = "crates/render" }
+videobox-gpu = { path = "crates/gpu" }
+videobox-scopes = { path = "crates/scopes" }
+videobox-export = { path = "crates/export" }
+videobox-format = { path = "crates/format" }
+videobox-engine = { path = "crates/engine" }
+videobox-ui-egui = { path = "crates/ui-egui" }
+videobox-automation = { path = "crates/automation" }
+videobox-platform = { path = "crates/platform" }
+videobox-testkit = { path = "crates/testkit" }
 
 # foundation
 thiserror = "2"
@@ -104,50 +104,50 @@ opt-level = 1
 debug = "line-tables-only"
 
 # Codec hot loops: debug-build tests (RFC/oracle vectors) are minutes slower below opt-level 3.
-[profile.dev.package.filmcraft-h264]
+[profile.dev.package.videobox-h264]
 opt-level = 3
 
-[profile.dev.package.filmcraft-h264enc]
+[profile.dev.package.videobox-h264enc]
 opt-level = 3
 
-[profile.dev.package.filmcraft-hevc]
+[profile.dev.package.videobox-hevc]
 opt-level = 3
 
-[profile.dev.package.filmcraft-prores]
+[profile.dev.package.videobox-prores]
 opt-level = 3
 
-[profile.dev.package.filmcraft-dnx]
+[profile.dev.package.videobox-dnx]
 opt-level = 3
 
-[profile.dev.package.filmcraft-apv]
+[profile.dev.package.videobox-apv]
 opt-level = 3
 
-[profile.dev.package.filmcraft-dng]
+[profile.dev.package.videobox-dng]
 opt-level = 3
 
-[profile.dev.package.filmcraft-av1]
+[profile.dev.package.videobox-av1]
 opt-level = 3
 
-[profile.dev.package.filmcraft-aac]
+[profile.dev.package.videobox-aac]
 opt-level = 3
 
-[profile.dev.package.filmcraft-flac]
+[profile.dev.package.videobox-flac]
 opt-level = 3
 
 # Audio effects: realtime-factor tests and long convolution / spectral runs.
-[profile.dev.package.filmcraft-audio-dsp]
+[profile.dev.package.videobox-audio-dsp]
 opt-level = 3
 
-[profile.dev.package.filmcraft-mxf]
+[profile.dev.package.videobox-mxf]
 opt-level = 3
 
-[profile.dev.package.filmcraft-opus]
+[profile.dev.package.videobox-opus]
 opt-level = 3
 
-[profile.dev.package.filmcraft-vp8]
+[profile.dev.package.videobox-vp8]
 opt-level = 3
 
-[profile.dev.package.filmcraft-vp9]
+[profile.dev.package.videobox-vp9]
 opt-level = 3
 
 [profile.release]

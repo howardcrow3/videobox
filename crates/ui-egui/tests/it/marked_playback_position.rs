@@ -1,8 +1,8 @@
 use egui_kittest::Harness;
-use filmcraft_engine::Session;
-use filmcraft_time::Tick;
-use filmcraft_ui_egui::{FilmcraftApp, menus};
 use serde_json::json;
+use videobox_engine::Session;
+use videobox_time::Tick;
+use videobox_ui_egui::{VideoboxApp, menus};
 
 #[test]
 fn program_range_playback_rests_on_inclusive_out_frame() {
@@ -14,7 +14,7 @@ fn program_range_playback_rests_on_inclusive_out_frame() {
     session.execute("markers.markIn", json!({"time": 0})).unwrap();
     session.execute("markers.markOut", json!({"time": out.0})).unwrap();
 
-    let mut harness = Harness::builder().with_size(egui::vec2(1280.0, 800.0)).with_step_dt(0.25).build_eframe(move |_cc| FilmcraftApp::new(session));
+    let mut harness = Harness::builder().with_size(egui::vec2(1280.0, 800.0)).with_step_dt(0.25).build_eframe(move |_cc| VideoboxApp::new(session));
     harness.step();
     let ctx = harness.ctx.clone();
 

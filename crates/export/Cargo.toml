@@ -1,5 +1,5 @@
 [package]
-name = "filmcraft-export"
+name = "videobox-export"
 description = "Export pipeline: parallel render → encode → mux, presets, progress/cancel"
 version.workspace = true
 edition.workspace = true
@@ -10,23 +10,23 @@ rust-version.workspace = true
 workspace = true
 
 [dependencies]
-filmcraft-time = { workspace = true }
-filmcraft-frame = { workspace = true }
-filmcraft-color = { workspace = true }
-filmcraft-media = { workspace = true }
-filmcraft-project = { workspace = true }
-filmcraft-render = { workspace = true }
-filmcraft-audio-dsp = { workspace = true }
-filmcraft-geom = { workspace = true }
-filmcraft-text = { workspace = true }
-filmcraft-isobmff = { workspace = true }
-filmcraft-prores = { workspace = true }
-filmcraft-dnx = { workspace = true }
-filmcraft-apv = { workspace = true }
-filmcraft-mxf = { workspace = true }
-filmcraft-aac = { workspace = true }
-filmcraft-flac = { workspace = true }
-filmcraft-h264enc = { workspace = true }
+videobox-time = { workspace = true }
+videobox-frame = { workspace = true }
+videobox-color = { workspace = true }
+videobox-media = { workspace = true }
+videobox-project = { workspace = true }
+videobox-render = { workspace = true }
+videobox-audio-dsp = { workspace = true }
+videobox-geom = { workspace = true }
+videobox-text = { workspace = true }
+videobox-isobmff = { workspace = true }
+videobox-prores = { workspace = true }
+videobox-dnx = { workspace = true }
+videobox-apv = { workspace = true }
+videobox-mxf = { workspace = true }
+videobox-aac = { workspace = true }
+videobox-flac = { workspace = true }
+videobox-h264enc = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 thiserror = { workspace = true }
@@ -35,5 +35,5 @@ web-time = "1"
 image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "tiff", "bmp"] }
 
 [dev-dependencies]
-filmcraft-testkit = { workspace = true }
-filmcraft-codecs = { workspace = true }
+videobox-testkit = { workspace = true }
+videobox-codecs = { workspace = true }
