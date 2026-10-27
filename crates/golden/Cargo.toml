@@ -24,5 +24,5 @@ videobox-media = { workspace = true }
 videobox-project = { workspace = true }
 videobox-render = { workspace = true }
 videobox-gpu = { workspace = true }
-pollster = "0.4"
+pollster = "1.0"
 wgpu = { version = "30", features = ["wgsl", "metal", "vulkan", "dx12", "gles"] }
